@@ -1,0 +1,36 @@
+{
+  "name": "react-beauty-2.0",
+  "version": "0.0.7",
+  "displayName": "React-Beauty Remake!!!",
+  "description": "The beautiful remake of the React-Beauty Theme from the creator!",
+  "main": "index.js",
+  "engines": {
+    "vscode": "^1.50.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ImpendingDoom28/react-beauty-2.0.git"
+  },
+  "keywords": [
+    "theme",
+    "vscode"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "React-Beauty Remake!!!",
+        "uiTheme": "vs-dark",
+        "path": "./themes/React-Beauty Remake!!!-color-theme.json"
+      }
+    ]
+  },
+  "author": "ImpendingDoom28",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ImpendingDoom28/react-beauty-2.0/issues"
+  },
+  "homepage": "https://github.com/ImpendingDoom28/react-beauty-2.0#readme"
+}
