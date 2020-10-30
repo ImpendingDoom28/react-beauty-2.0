@@ -28,6 +28,25 @@
 	"tokenColors": [
 		{
 			"scope": [
+				"constant.language.nan.js",
+				"constant.language.null.js",
+				"constant.language.undefined.js",
+			],
+			"settings": {
+				"foreground": "#FF0000",
+				"fontStyle": "bold italic",
+			}
+		},
+		{
+			"scope": [
+				"meta.function.js",
+			],
+			"settings": {
+				"foreground": "#F78C6C",
+			}
+		},
+		{
+			"scope": [
 				"support.class.component.js"
 			],
 			"settings": {
@@ -51,7 +70,7 @@
 				"string constant.other.placeholder"
 			],
 			"settings": {
-				"foreground": "#D7DEEA"
+				"foreground": "#e7e3e3d7",
 			}
 		},
 		{
