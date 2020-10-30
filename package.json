@@ -3,7 +3,6 @@
   "version": "0.0.7",
   "displayName": "React-Beauty Remake!!!",
   "description": "The beautiful remake of the React-Beauty Theme from the creator!",
-  "main": "index.js",
   "engines": {
     "vscode": "^1.50.0"
   },
