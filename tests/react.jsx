@@ -6,11 +6,10 @@ import { function } from 'react-redux';
 
 import css from './test.js';
 
-const Component1 = (
-	{
-		prop1,
-		prop2
-	}) => {
+const Component1 = ({
+	prop1,
+	prop2
+}) => {
 	const newVar = {}
 
 	return (
@@ -31,7 +30,6 @@ const Component2 = (
 	}) => {
 	return (
 		<Component1
-			className={"string"}
 			prop1={passedProp}
 		/>
 	)
