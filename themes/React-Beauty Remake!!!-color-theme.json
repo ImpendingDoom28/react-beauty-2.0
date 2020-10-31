@@ -28,6 +28,25 @@
 	"tokenColors": [
 		{
 			"scope": [
+				"meta.object-literal.key.js",
+				"source.js variable.other.property.js",
+				"source.js variable.other.object.property.js",
+			],
+			"settings": {
+				"foreground": "#21a4ccc5"
+			}
+		},
+		{
+			"scope": [
+				"meta.arrow.js variable.other.constant.js"
+			],
+			"settings": {
+				"foreground": "#FF0000",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"scope": [
 				"constant.language.nan.js",
 				"constant.language.null.js",
 				"constant.language.undefined.js",
@@ -39,12 +58,29 @@
 		},
 		{
 			"scope": [
-				"meta.function.js",
+				"constant.language.boolean.true.js"
 			],
 			"settings": {
-				"foreground": "#F78C6C",
+				"foreground": "#47e1fcd2",
 			}
 		},
+		{
+			"scope": [
+				"constant.language.boolean.false.js",
+			],
+			"settings": {
+				"foreground": "#FF0000",
+			}
+		},
+		// {
+		// 	"scope": [
+		// 		"meta.function.js variable.other.readwrite.js",
+		// 		"meta.arrow.js variable.other.readwrite.js"
+		// 	],
+		// 	"settings": {
+		// 		"foreground": "#f78c6cec",
+		// 	}
+		// },
 		{
 			"scope": [
 				"support.class.component.js"
@@ -67,10 +103,12 @@
 		{
 			"scope": [
 				"variable",
-				"string constant.other.placeholder"
+				"string constant.other.placeholder",
+				"meta.function.js meta.var-single-variable.expr.js variable.other.readwrite.js",
+				"variable.parameter.js"
 			],
 			"settings": {
-				"foreground": "#e7e3e3d7",
+				"foreground": "#e7e3e3ea",
 			}
 		},
 		{
@@ -185,10 +223,11 @@
 				"entity.other.inherited-class",
 				"markup.heading",
 				"markup.inserted.git_gutter",
-				"meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js"
+				"meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js",
+				"meta.tag.attributes.js string.quoted.double.js"
 			],
 			"settings": {
-				"foreground": "#FFCB6B"
+				"foreground": "#ffcb6b"
 			}
 		},
 		{
@@ -390,7 +429,7 @@
 				"source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
 			],
 			"settings": {
-				"foreground": "#FFCB6B"
+				"foreground": "#92c570"
 			}
 		},
 		{
