@@ -51,6 +51,7 @@ function basicFunction(param1, param2) {
 
 const arrowFunction = (param1, param2) => {
 	let a = "b";
+	const cos = "cos";
 
 	console.log(a.obj);
 

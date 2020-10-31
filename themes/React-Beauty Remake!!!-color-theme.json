@@ -38,15 +38,6 @@
 		},
 		{
 			"scope": [
-				"meta.arrow.js variable.other.constant.js"
-			],
-			"settings": {
-				"foreground": "#FF0000",
-				"fontStyle": "bold"
-			}
-		},
-		{
-			"scope": [
 				"constant.language.nan.js",
 				"constant.language.null.js",
 				"constant.language.undefined.js",

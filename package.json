@@ -1,6 +1,6 @@
 {
-  "name": "react-beauty-2.0",
-  "version": "0.0.7",
+  "name": "react-beauty-2",
+  "version": "0.0.1",
   "displayName": "React-Beauty Remake!!!",
   "description": "The beautiful remake of the React-Beauty Theme from the creator!",
   "engines": {
@@ -26,6 +26,7 @@
       }
     ]
   },
+  "publisher": "ImpendingDoom28",
   "author": "ImpendingDoom28",
   "license": "ISC",
   "bugs": {
