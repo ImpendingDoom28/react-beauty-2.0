@@ -30,7 +30,7 @@
 			"scope": [
 				"meta.object-literal.key.js",
 				"source.js variable.other.property.js",
-				"source.js variable.other.object.property.js",
+				"source.js variable.other.object.property.js"
 			],
 			"settings": {
 				"foreground": "#21a4ccc5"
@@ -44,7 +44,7 @@
 			],
 			"settings": {
 				"foreground": "#FF0000",
-				"fontStyle": "bold italic",
+				"fontStyle": "bold italic"
 			}
 		},
 		{
@@ -52,7 +52,7 @@
 				"constant.language.boolean.true.js"
 			],
 			"settings": {
-				"foreground": "#47e1fcd2",
+				"foreground": "#47e1fcd2"
 			}
 		},
 		{
@@ -60,7 +60,7 @@
 				"constant.language.boolean.false.js",
 			],
 			"settings": {
-				"foreground": "#FF0000",
+				"foreground": "#FF0000"
 			}
 		},
 		// {
@@ -99,7 +99,7 @@
 				"variable.parameter.js"
 			],
 			"settings": {
-				"foreground": "#e7e3e3ea",
+				"foreground": "#e7e3e3ea"
 			}
 		},
 		{
