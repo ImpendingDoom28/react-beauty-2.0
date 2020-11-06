@@ -83,7 +83,7 @@
 				"constant.language.undefined.js",
 			],
 			"settings": {
-				"foreground": "#00ff22",
+				"foreground": "#ff6600",
 				"fontStyle": "bold italic"
 			}
 		},
