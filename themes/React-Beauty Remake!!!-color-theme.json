@@ -14,6 +14,7 @@
 		// BUTTON
 		"button.foreground": "#c0c1c5",
 		"button.hoverBackground": "#6c707abe",
+		"extensionButton.prominentBackground": "#36aa12c2",
 		// DEBUG TOOL BAR
 		"debugToolBar.background": "#23272e",
 		// EDITOR
@@ -32,6 +33,8 @@
 		"editorLink.activeForeground": "#2dcbfb9d",
 		"editorUnnecessaryCode.opacity": "#7e74748a",
 		"editorHoverWidget.background": "#2e2e2e",
+		// INTEGRATED TERMINAL
+		"terminal.background": "#23272e",
 		// SIDEBAR
 		"sideBar.background": "#23272e",
 		"sideBar.border": "#1b1e24",
