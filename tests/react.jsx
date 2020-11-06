@@ -12,6 +12,8 @@ const Component1 = ({
 }) => {
 	const newVar = {}
 
+	const link = `http://localhost:8000`
+
 	return (
 		<div
 			className={css.div}
@@ -20,6 +22,11 @@ const Component1 = ({
 			<Component2
 				newVar={newVar}
 			/>
+			<div>{prop1}</div>
+			<div>{prop2}</div>
+			<div></div>
+			<div></div>
+			<div></div>
 		</div>
 	)
 }

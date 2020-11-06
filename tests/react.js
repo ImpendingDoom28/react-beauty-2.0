@@ -30,9 +30,12 @@ const Component2 = (
 		prop3,
 	}) => {
 	return (
-		<Component1
-			className={"string"}
-			prop1={passedProp}
-		/>
+		<>
+			<Component1
+				className={"string"}
+				prop1={passedProp}
+			/>
+			<Component1></Component1>
+		</>
 	)
 }

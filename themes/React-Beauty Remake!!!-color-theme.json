@@ -2,28 +2,44 @@
 	"name": "React-Beauty Remake!!!",
 	"type": "dark",
 	"colors": {
-		"activityBar.activeBackground": "#153c4e3a",
-		"activityBar.activeBorder": "#2dcbfb9d",
+		// ACTIVITY BAR
+		"activityBar.activeBackground": "#23272e",
+		"activityBar.activeBorder": "#0d6a7a9a",
 		"activityBar.border": "#1b1e24",
 		"activityBar.inactiveForeground": "#6c707abe",
 		"activityBarBadge.background": "#cdcfd3",
+		"contrastBorder": "#232831b2",
+		// Items that selected
+		"contrastActiveBorder": "#0d6a7a9a",
+		// BUTTON
 		"button.foreground": "#c0c1c5",
 		"button.hoverBackground": "#6c707abe",
-		"contrastBorder": "#1b1e24",
+		// DEBUG TOOL BAR
 		"debugToolBar.background": "#23272e",
-		"editor.background": "#23272e",
+		// EDITOR
+		"editor.background": "#232831b2",
 		"editor.foreground": "#eeffff",
 		"editor.selectionBackground": "#62c0ff59",
+		"editorGroup.border": "#62c0ff59",
 		"editorSuggestWidget.border": "#2dcbfb9d",
 		"editorSuggestWidget.foreground": "#cdcfd3",
 		"editorSuggestWidget.highlightForeground": "#2dcbfb9d",
 		"editorSuggestWidget.selectedBackground": "#62c0ff59",
+		"editorGutter.modifiedBackground": "#aaa812c2",
+		"editorGutter.deletedBackground": "#aa1212c2",
+		"editorGutter.addedBackground": "#36aa12c2",
+		"editorLineNumber.foreground": "#808080",
+		"editorLink.activeForeground": "#2dcbfb9d",
 		"editorUnnecessaryCode.opacity": "#7e74748a",
+		"editorHoverWidget.background": "#2e2e2e",
+		// SIDEBAR
 		"sideBar.background": "#23272e",
 		"sideBar.border": "#1b1e24",
 		"sideBar.dropBackground": "#6c707abe",
-		"sideBar.foreground": "#c0c1c5",
-		"sideBarTitle.foreground": "#cdcfd3"
+		"sideBar.foreground": "#ffffffb2",
+		"sideBarTitle.foreground": "#ffffffb2",
+		// WIDGET
+		"widget.shadow": "#00000067",
 	},
 	"tokenColors": [
 		{
@@ -63,21 +79,23 @@
 				"foreground": "#FF0000"
 			}
 		},
-		// {
-		// 	"scope": [
-		// 		"meta.function.js variable.other.readwrite.js",
-		// 		"meta.arrow.js variable.other.readwrite.js"
-		// 	],
-		// 	"settings": {
-		// 		"foreground": "#f78c6cec",
-		// 	}
-		// },
 		{
 			"scope": [
-				"support.class.component.js"
+				"meta.function.js variable.other.readwrite.js",
+				"meta.arrow.js variable.other.readwrite.js"
 			],
 			"settings": {
-				"foreground": "#673DFD",
+				"foreground": "#f78c6cec",
+			}
+		},
+		{
+			"scope": [
+				"support.class.component.js",
+				"support.class.component.open.jsx",
+				"support.class.component.close.jsx"
+			],
+			"settings": {
+				"foreground": "#673dfde3",
 				"fontStyle": "italic"
 			}
 		},
