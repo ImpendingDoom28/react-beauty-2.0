@@ -14,8 +14,6 @@ const Component1 = ({
 
 	const link = `http://localhost:8000`
 
-	co
-
 	return (
 		<div
 			className={css.div}

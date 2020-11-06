@@ -2,15 +2,22 @@
 	"name": "React-Beauty Remake!!!",
 	"type": "dark",
 	"colors": {
-		// ACTIVITY BAR
-		"activityBar.activeBackground": "#23272e",
-		"activityBar.activeBorder": "#0d6a7a9a",
+		// ACTIVITY BAR (column with buttons explorer, search, etc)
 		"activityBar.border": "#1b1e24",
+		//// Color of whole activity column
+		"activityBar.background": "#1b1e24",
+		//// Text color of selected element
+		"activityBar.activeBackground": "#23272e",
+		//// Border color of selected element
+		"activityBar.activeBorder": "#0d6a7a9a",
+		//// Color of NOT selected element
 		"activityBar.inactiveForeground": "#6c707abe",
-		"activityBarBadge.background": "#cdcfd3",
+		//// Color of buttons notification (ex. source control has 2 files for stage, so the 2 in circle is displayed in bar)
+		"activityBarBadge.background": "#0d6a7a",
+		// ITEMS ON SCREEN
 		"contrastBorder": "#232831b2",
-		// Items that selected
-		"contrastActiveBorder": "#0d6a7a9a",
+		//// Selected items
+		// "contrastActiveBorder": "#0d6a7a9a",
 		// BUTTON
 		"button.foreground": "#c0c1c5",
 		"button.hoverBackground": "#6c707abe",
@@ -43,6 +50,19 @@
 		"sideBarTitle.foreground": "#ffffffb2",
 		// WIDGET
 		"widget.shadow": "#00000067",
+		// TITLE BAR
+		"titleBar.activeBackground": "#1b1e24",
+		//// Active text color
+		"titleBar.activeForeground": "#ffffffb2",
+		"titleBar.inactiveBackground": "#1b1e24",
+		//// Not active text color
+		"titleBar.inactiveForeground": "#ffffff62",
+		// STATUS BAR
+		"statusBar.background": "#1b1e24",
+		"statusBar.foreground": "#ffffffb2",
+		"statusBarItem.activeBackground": "#0d6a7a9a",
+		"statusBarItem.hoverBackground": "#232831b2",
+		"statusBar.debuggingForeground": "#ffffffb2",
 	},
 	"tokenColors": [
 		{
@@ -58,11 +78,12 @@
 		{
 			"scope": [
 				"constant.language.nan.js",
+				"support.class.builtin.js",
 				"constant.language.null.js",
 				"constant.language.undefined.js",
 			],
 			"settings": {
-				"foreground": "#FF0000",
+				"foreground": "#00ff22",
 				"fontStyle": "bold italic"
 			}
 		},
