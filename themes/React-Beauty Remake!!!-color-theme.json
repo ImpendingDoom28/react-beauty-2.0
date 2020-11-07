@@ -112,7 +112,19 @@
 		// MENU BAR
 		"menubar.selectionBackground": "#0d6a7a9a",
 		"menubar.selectionForeground": "#eeffff",
-		"menubar.selectionBorder": "#084550c0"
+		"menubar.selectionBorder": "#084550c0",
+
+		// NOTIFICATIONS
+		"notificationCenter.border": "#1b1e24",
+		"notificationCenterHeader.background": "#23272e",
+		"notificationCenterHeader.foreground": "#ffffffb2",
+		"notificationToast.border": "#1b1e24",
+		"notifications.background": "#23272e",
+		"notifications.foreground": "#ffffffb2",
+		"notifications.border": "#0d6a7a9a",
+		"notificationsErrorIcon.foreground": "#aa1212c2",
+		"notificationsWarningIcon.foreground": "#aaa812c2",
+		"notificationsInfoIcon.foreground": "#2dcbfb9d"
 	},
 	"tokenColors": [
 		{
