@@ -125,6 +125,7 @@
 		"notificationsErrorIcon.foreground": "#aa1212c2",
 		"notificationsWarningIcon.foreground": "#aaa812c2",
 		"notificationsInfoIcon.foreground": "#2dcbfb9d",
+		"notificationLink.foreground": "#2dcbfb9d"
 	},
 	"tokenColors": [
 		{
