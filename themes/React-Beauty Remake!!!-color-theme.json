@@ -124,7 +124,7 @@
 		"notifications.border": "#0d6a7a9a",
 		"notificationsErrorIcon.foreground": "#aa1212c2",
 		"notificationsWarningIcon.foreground": "#aaa812c2",
-		"notificationsInfoIcon.foreground": "#2dcbfb9d"
+		"notificationsInfoIcon.foreground": "#2dcbfb9d",
 	},
 	"tokenColors": [
 		{
