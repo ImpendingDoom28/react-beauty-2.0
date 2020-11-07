@@ -69,6 +69,7 @@
 			"scope": [
 				"meta.object-literal.key.js",
 				"source.js variable.other.property.js",
+				"constant.other.object.key.js string.unquoted.js",
 				"source.js variable.other.object.property.js"
 			],
 			"settings": {
