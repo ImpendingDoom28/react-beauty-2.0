@@ -65,6 +65,7 @@
 		"editorLink.activeForeground": "#2dcbfb9d",
 		"editorUnnecessaryCode.opacity": "#7e74748a",
 		"editorHoverWidget.background": "#2e2e2e",
+		"editorGroupHeader.tabsBackground": "#23272e",
 
 		// INTEGRATED TERMINAL
 		"terminal.background": "#23272e",
@@ -74,10 +75,11 @@
 		"sideBar.border": "#1b1e24",
 		"sideBar.dropBackground": "#0d6a7a9a",
 		"sideBarTitle.foreground": "#ffffffb2",
+		"sideBar.foreground": "#ffffffb2",
 
 		// SIDEBAR SECTIONS
-		"sideBarSectionHeader.background": "#1b1e24",
-		"sideBarSectionHeader.border": "#1b1e24",
+		"sideBarSectionHeader.background": "#23272e",
+		"sideBarSectionHeader.border": "#23272e",
 		"sideBarSectionHeader.foreground": "#ffffffb2",
 
 		// WIDGET
@@ -125,7 +127,21 @@
 		"notificationsErrorIcon.foreground": "#aa1212c2",
 		"notificationsWarningIcon.foreground": "#aaa812c2",
 		"notificationsInfoIcon.foreground": "#2dcbfb9d",
-		"notificationLink.foreground": "#2dcbfb9d"
+		"notificationLink.foreground": "#2dcbfb9d",
+
+		// TABS
+		"tab.activeBackground":"#1b1e24",
+		"tab.activeBorder": "#1b1e24",
+		"tab.activeForeground": "#eeffff",
+		"tab.activeModifiedBorder": "#673dfde3",
+		"tab.border": "#1b1e24",
+		"tab.hoverBackground": "#0d6a7a9a",
+		"tab.hoverBorder": "#084550c0",
+		"tab.hoverForeground": "#eeffff",
+		"tab.inactiveBackground": "#23272e",
+		"tab.inactiveForeground": "#ffffff62",
+		"tab.inactiveModifiedBorder": "#673dfd77",
+		"tab.lastPinnedBorder": "#23272e",
 	},
 	"tokenColors": [
 		{

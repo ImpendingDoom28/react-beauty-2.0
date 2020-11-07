@@ -13,6 +13,7 @@ const Component1 = (
 	}) => {
 	const newVar = {}
 
+
 	return (
 		<div
 			className={css.div}
