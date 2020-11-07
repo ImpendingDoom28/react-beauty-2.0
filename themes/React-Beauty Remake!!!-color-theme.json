@@ -5,36 +5,50 @@
 		// ACTIVITY BAR (column with buttons explorer, search, etc)
 		//// Color of column
 		"activityBar.border": "#1b1e24",
+
 		//// Color of whole activity column
 		"activityBar.background": "#1b1e24",
+
 		//// Color of selected element
 		"activityBar.activeBackground": "#23272e",
+
 		//// Border color of selected element
 		"activityBar.activeBorder": "#0d6a7a9a",
+
 		//// Text color of selected item
 		"activityBar.foreground": "#ffffffb2",
+
 		//// Color of NOT selected element
 		"activityBar.inactiveForeground": "#6c707abe",
+
 		//// Color of line then dropping item (there to put activity bar item)
 		"activityBar.dropBorder": "#0d6a7a9a",
+
 		//// Text color of notification buttons 
 		"activityBarBadge.foreground": "#ffffffb2",
+
 		//// Color of notification buttons (Ex.: source control has 2 files for stage, so the 2 in circle is displayed in bar)
 		"activityBarBadge.background": "#0d6a7a",
+
 		// ITEMS ON SCREEN
 		"contrastBorder": "#232831b2",
-		"focusBorder": "#0d6a7a9a",
+		"focusBorder":"#0d6a7a9a",
 		"foreground": "#ffffffb2",
+		
 		// ICONS
-		"icon.foreground": "#c0c1c5",
+		"icon.foreground":"#c0c1c5",
+
 		//// Selected items
 		// "contrastActiveBorder": "#0d6a7a9a",
+
 		// BUTTON
 		"button.foreground": "#c0c1c5",
 		"button.hoverBackground": "#6c707abe",
 		"extensionButton.prominentBackground": "#36aa12c2",
+
 		// DEBUG TOOL BAR
 		"debugToolBar.background": "#23272e",
+
 		// EDITOR
 		"editor.background": "#232831b2",
 		"editor.foreground": "#eeffff",
@@ -51,26 +65,34 @@
 		"editorLink.activeForeground": "#2dcbfb9d",
 		"editorUnnecessaryCode.opacity": "#7e74748a",
 		"editorHoverWidget.background": "#2e2e2e",
+
 		// INTEGRATED TERMINAL
 		"terminal.background": "#23272e",
+
 		// SIDEBAR
 		"sideBar.background": "#23272e",
 		"sideBar.border": "#1b1e24",
 		"sideBar.dropBackground": "#0d6a7a9a",
 		"sideBarTitle.foreground": "#ffffffb2",
+
 		// SIDEBAR SECTIONS
 		"sideBarSectionHeader.background": "#1b1e24",
 		"sideBarSectionHeader.border": "#1b1e24",
 		"sideBarSectionHeader.foreground": "#ffffffb2",
+
 		// WIDGET
 		"widget.shadow": "#00000067",
+
 		// TITLE BAR
 		"titleBar.activeBackground": "#1b1e24",
+
 		//// Active text color
 		"titleBar.activeForeground": "#ffffffb2",
 		"titleBar.inactiveBackground": "#1b1e24",
+
 		//// Not active text color
 		"titleBar.inactiveForeground": "#ffffff62",
+
 		// STATUS BAR
 		"statusBar.background": "#1b1e24",
 		"statusBar.foreground": "#ffffffb2",
@@ -78,6 +100,7 @@
 		"statusBarItem.hoverBackground": "#0d6a7a9a",
 		"statusBar.border": "#1b1e24",
 		"statusBar.debuggingForeground": "#ffffffb2",
+
 		// MENUS
 		"menu.background": "#1b1e24",
 		"menu.foreground": "#ffffffb2",
@@ -85,6 +108,7 @@
 		"menu.selectionBackground": "#0d6a7a9a",
 		"menu.selectionForeground": "#eeffff",
 		"menu.selectionBorder": "#084550c0",
+		
 		// MENU BAR
 		"menubar.selectionBackground": "#0d6a7a9a",
 		"menubar.selectionForeground": "#eeffff",
