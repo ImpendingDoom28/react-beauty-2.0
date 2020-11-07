@@ -60,9 +60,21 @@
 		// STATUS BAR
 		"statusBar.background": "#1b1e24",
 		"statusBar.foreground": "#ffffffb2",
-		"statusBarItem.activeBackground": "#0d6a7a9a",
-		"statusBarItem.hoverBackground": "#232831b2",
+		"statusBarItem.activeBackground": "#084550c0",
+		"statusBarItem.hoverBackground": "#0d6a7a9a",
+		"statusBar.border": "#1b1e24",
 		"statusBar.debuggingForeground": "#ffffffb2",
+		// MENUS
+		"menu.background": "#1b1e24",
+		"menu.foreground": "#ffffffb2",
+		"menu.border": "#1b1e24",
+		"menu.selectionBackground": "#0d6a7a9a",
+		"menu.selectionForeground": "#eeffff",
+		"menu.selectionBorder": "#084550c0",
+		// MENU BAR
+		"menubar.selectionBackground": "#0d6a7a9a",
+		"menubar.selectionForeground": "#eeffff",
+		"menubar.selectionBorder": "#084550c0"
 	},
 	"tokenColors": [
 		{
