@@ -10,6 +10,8 @@
 		"activityBar.activeBackground": "#23272e",
 		//// Border color of selected element
 		"activityBar.activeBorder": "#0d6a7a9a",
+		//// Color 
+		"activityBar.foreground": "#ffffffb2",
 		//// Color of NOT selected element
 		"activityBar.inactiveForeground": "#6c707abe",
 		//// Color of buttons notification (ex. source control has 2 files for stage, so the 2 in circle is displayed in bar)
@@ -45,9 +47,13 @@
 		// SIDEBAR
 		"sideBar.background": "#23272e",
 		"sideBar.border": "#1b1e24",
-		"sideBar.dropBackground": "#6c707abe",
+		"sideBar.dropBackground": "#0d6a7a9a",
 		"sideBar.foreground": "#ffffffb2",
 		"sideBarTitle.foreground": "#ffffffb2",
+		// SIDEBAR SECTIONS
+		"sideBarSectionHeader.background": "#1b1e24",
+		"sideBarSectionHeader.border": "#1b1e24",
+		"sideBarSectionHeader.foreground": "#ffffffb2",
 		// WIDGET
 		"widget.shadow": "#00000067",
 		// TITLE BAR
