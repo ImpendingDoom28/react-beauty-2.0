@@ -70,6 +70,7 @@
 
 		// INTEGRATED TERMINAL
 		"terminal.background": "#23272e",
+		"terminal.border": "#1b1e24",
 
 		// SIDEBAR
 		"sideBar.background": "#23272e",
@@ -153,6 +154,8 @@
 		"breadcrumb.focusForeground": "#cdcfd3",
 		"breadcrumb.foreground": "#ffffffb2",
 		"breadcrumbPicker.background": "#1b1e24",
+
+		
 	},
 	"tokenColors": [
 		{
