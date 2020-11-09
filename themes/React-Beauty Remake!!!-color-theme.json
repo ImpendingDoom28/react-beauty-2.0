@@ -146,6 +146,13 @@
 		"tab.inactiveForeground": "#ffffff62",
 		"tab.inactiveModifiedBorder": "#673dfd77",
 		"tab.lastPinnedBorder": "#23272e",
+
+		// BREADCRUMBS
+		"breadcrumb.activeSelectionForeground": "#eeffff",
+		"breadcrumb.background": "#23272e",
+		"breadcrumb.focusForeground": "#cdcfd3",
+		"breadcrumb.foreground": "#ffffffb2",
+		"breadcrumbPicker.background": "#1b1e24",
 	},
 	"tokenColors": [
 		{
