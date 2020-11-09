@@ -65,7 +65,8 @@
 		"editorLink.activeForeground": "#2dcbfb9d",
 		"editorUnnecessaryCode.opacity": "#7e74748a",
 		"editorHoverWidget.background": "#2e2e2e",
-		"editorGroupHeader.tabsBackground": "#23272e",
+		"editorGroupHeader.tabsBackground": "#1b1e24",
+		"editorGroupHeader.tabsBorder":"#23272e",
 
 		// INTEGRATED TERMINAL
 		"terminal.background": "#23272e",
@@ -79,7 +80,7 @@
 
 		// SIDEBAR SECTIONS
 		"sideBarSectionHeader.background": "#23272e",
-		"sideBarSectionHeader.border": "#23272e",
+		"sideBarSectionHeader.border": "#0d6a7a9a",
 		"sideBarSectionHeader.foreground": "#ffffffb2",
 
 		// WIDGET
@@ -98,10 +99,12 @@
 		// STATUS BAR
 		"statusBar.background": "#1b1e24",
 		"statusBar.foreground": "#ffffffb2",
+		"statusBar.border": "#1b1e24",
+		"statusBar.debuggingForeground": "#eeffff",
+		"statusBar.debuggingBackground": "#fd781faf",
+		"statusBarItem.prominentBackground": "#ff0000",
 		"statusBarItem.activeBackground": "#084550c0",
 		"statusBarItem.hoverBackground": "#0d6a7a9a",
-		"statusBar.border": "#1b1e24",
-		"statusBar.debuggingForeground": "#ffffffb2",
 
 		// MENUS
 		"menu.background": "#1b1e24",
@@ -130,15 +133,16 @@
 		"notificationLink.foreground": "#2dcbfb9d",
 
 		// TABS
-		"tab.activeBackground":"#1b1e24",
-		"tab.activeBorder": "#1b1e24",
+		"tab.activeBackground":"#23272e",
+		"tab.activeBorder": "#23272e",
+		"tab.activeBorderTop": "#1b1e24",
 		"tab.activeForeground": "#eeffff",
 		"tab.activeModifiedBorder": "#673dfde3",
 		"tab.border": "#1b1e24",
 		"tab.hoverBackground": "#0d6a7a9a",
 		"tab.hoverBorder": "#084550c0",
 		"tab.hoverForeground": "#eeffff",
-		"tab.inactiveBackground": "#23272e",
+		"tab.inactiveBackground": "#1b1e24",
 		"tab.inactiveForeground": "#ffffff62",
 		"tab.inactiveModifiedBorder": "#673dfd77",
 		"tab.lastPinnedBorder": "#23272e",
