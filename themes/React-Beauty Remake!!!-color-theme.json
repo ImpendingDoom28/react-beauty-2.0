@@ -155,6 +155,15 @@
 		"breadcrumb.foreground": "#ffffffb2",
 		"breadcrumbPicker.background": "#1b1e24",
 
+		// PANELS
+		"panel.background": "#23272e",
+		"panel.border": "#1b1e24",
+		"panel.dropBorder": "#0d6a7a9a",
+		"panelSection.border": "#1b1e24",
+		"panelTitle.activeBorder": "#0d6a7a9a",
+		"panelTitle.activeForeground": "#ffffffb2",
+		"panelTitle.inactiveForeground": "#6c707abe",
+		"panelInput.border": "#0d6a7a9a",
 		
 	},
 	"tokenColors": [
