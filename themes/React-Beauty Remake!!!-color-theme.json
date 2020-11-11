@@ -195,6 +195,9 @@
 		"listFilterWidget.background": "#fd781f86",
 		"listFilterWidget.noMatchesOutline":"#FF0000",
 		"listFilterWidget.outline": "#36aa12",
+
+		// IMAGE PREVIEW
+		"imagePreview.border": "#23272e"
 	},
 	"tokenColors": [
 		{
