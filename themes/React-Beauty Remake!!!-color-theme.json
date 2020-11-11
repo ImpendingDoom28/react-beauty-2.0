@@ -41,10 +41,16 @@
 		//// Selected items
 		// "contrastActiveBorder": "#0d6a7a9a",
 
-		// BUTTON
-		"button.foreground": "#c0c1c5",
-		"button.hoverBackground": "#6c707abe",
+		// BUTTONS
+		"button.foreground": "#ffffffb2",
+		"button.background": "#0d6a7a9a",
+		"button.hoverBackground": "#1b1e24",
+		"button.secondaryBackground": "#ffffff",
+		//// Buttons in extensions
+		"extensionBadge.remoteBackground": "#ff0000",
+		"extensionBadge.remoteForeground": "#ff0000",
 		"extensionButton.prominentBackground": "#36aa12c2",
+		"extensionButton.prominentForeground": "#ffffffb2",
 
 		// DEBUG TOOL BAR
 		"debugToolBar.background": "#23272e",
@@ -188,16 +194,18 @@
 		"list.hoverForeground": "#eeffff",
 		"list.inactiveFocusBackground": "#084550c0",
 		"list.inactiveSelectionBackground":"#084550c0",
-		"list.inactiveSelectionForeground": "#084550c0",
+		"list.inactiveSelectionForeground":"#6c707abe",
 		"list.warningForeground": "#aaa812c2",
 		
 		// LISTS FILTERS
 		"listFilterWidget.background": "#fd781f86",
-		"listFilterWidget.noMatchesOutline":"#FF0000",
+		"listFilterWidget.noMatchesOutline":"#ff0000",
 		"listFilterWidget.outline": "#36aa12",
 
 		// IMAGE PREVIEW
-		"imagePreview.border": "#23272e"
+		"imagePreview.border": "#23272e",
+		
+		// BUTTONS
 	},
 	"tokenColors": [
 		{
