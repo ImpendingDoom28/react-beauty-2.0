@@ -1,8 +1,8 @@
-import React from 'react';
+import React, { useState } from 'react';
 
 import * as namespace from 'lodash';
 
-import { function } from 'react-redux';
+// import { function } from 'react-redux;
 
 import css from './test.js';
 
@@ -13,7 +13,7 @@ const Component1 = (
 	}) => {
 	const newVar = {}
 
-
+	const [state, setState] = useState(false);
 	return (
 		<div
 			className={css.div}

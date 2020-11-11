@@ -164,7 +164,37 @@
 		"panelTitle.activeForeground": "#ffffffb2",
 		"panelTitle.inactiveForeground": "#6c707abe",
 		"panelInput.border": "#0d6a7a9a",
+
+		// INPUTS
+		"input.background": "#1b1e24",
+		"input.border": "#1b1e24",
+		"input.foreground": "#ffffffb2",
+		"input.placeholderForeground": "#6c707abe",
+		"inputOption.activeBackground": "#0d6a7a9a",
+		"inputOption.activeBorder": "#0d6a7a9a",
+		"inputOption.activeForeground": "#ffffffb2",
+		"quickInput.background": "#1b1e24",
+
+		// LISTS
+		"list.activeSelectionBackground": "#0d6a7a9a",
+		"list.activeSelectionForeground": "#eeffff",
+		"list.dropBackground": "#1b1e24",
+		"list.errorForeground":"#aa1212",
+		"list.focusBackground": "#0d6a7a9a",
+		"list.focusForeground": "#eeffff",
+		"list.filterMatchBackground": "#fd781faf",
+		"list.filterMatchBorder": "#23272e",
+		"list.hoverBackground": "#0d6a7a9a",
+		"list.hoverForeground": "#eeffff",
+		"list.inactiveFocusBackground": "#084550c0",
+		"list.inactiveSelectionBackground":"#084550c0",
+		"list.inactiveSelectionForeground": "#084550c0",
+		"list.warningForeground": "#aaa812c2",
 		
+		// LISTS FILTERS
+		"listFilterWidget.background": "#fd781f86",
+		"listFilterWidget.noMatchesOutline":"#FF0000",
+		"listFilterWidget.outline": "#36aa12",
 	},
 	"tokenColors": [
 		{

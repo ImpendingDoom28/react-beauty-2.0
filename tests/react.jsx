@@ -2,8 +2,6 @@ import React from 'react';
 
 import * as namespace from 'lodash';
 
-import { function } from 'react-redux';
-
 import css from './test.js';
 
 const Component1 = ({
