@@ -1,4 +1,4 @@
-<link href="styles/readme.css" rel="stylesheet" type="text/css"></link>
+<link rel="stylesheet" type="text/css" media="all" href="styles/readme.css" />
 
 <p><h1>React-Beauty Remake!!!</h1></p>
 
