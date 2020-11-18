@@ -48,7 +48,7 @@
 		"button.secondaryBackground": "#ffffff",
 		//// Buttons in extensions
 		"extensionBadge.remoteBackground": "#ff0000",
-		"extensionBadge.remoteForeground": "#ff0000",
+		"extensionBadge.remoteForeground": "#ffffffb2",
 		"extensionButton.prominentBackground": "#36aa12c2",
 		"extensionButton.prominentForeground": "#ffffffb2",
 
