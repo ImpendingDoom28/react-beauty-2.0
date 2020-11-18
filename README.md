@@ -1,5 +1,3 @@
-<link rel="stylesheet" type="text/css" media="all" href="styles/readme.css" />
-
 <p><h1>React-Beauty Remake!!!</h1></p>
 
 ![Visual Studio Marketplace Downloads](https://img.shields.io/visual-studio-marketplace/d/ImpendingDoom28.react-beauty-2?color=0d6a7a&label=Downloads)
@@ -9,8 +7,7 @@
 The beautiful ***Remake*** of [React-Beauty Theme](https://marketplace.visualstudio.com/items?itemName=ImpendingDoom.react-beauty-theme "React-Beauty \"The First\" on Marketplace")
 
 <p data-align="center">I decided to make a nice, well-shaped, open-sourced 
-and, finally,</p>
-<p data-align="center"> React-based theme, for all my fellow comrades, who use React!</p>
+and, finally, React-based theme, for all my fellow comrades, who use React!</p>
 
 <p data-align="center">I really hope this theme will help you in your development struggles!</p>
 
