@@ -1,0 +1,12 @@
+h1, h2, h3, h5, h6 {
+	text-align: center !important; 
+}
+
+#diff-lng {
+	color: #858585a2;
+	font-style: italic;
+}
+
+p[data-align="center"] {
+	margin: 0 5rem;
+}
