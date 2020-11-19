@@ -6,14 +6,12 @@
 
 The beautiful ***Remake*** of [React-Beauty Theme](https://marketplace.visualstudio.com/items?itemName=ImpendingDoom.react-beauty-theme "React-Beauty \"The First\" on Marketplace")
 
-<p data-align="center">I decided to make a nice, well-shaped, open-sourced 
-and, finally, React-based theme, for all my fellow comrades, who use React!</p>
+I thought, that it would be a great idea to make a nice, well-shaped, open-sourced 
+and, finally, [React][1]-oriented theme, for all my fellow comrades, who use [React][1], including me!
 
-<p data-align="center">I really hope this theme will help you in your development struggles!</p>
+I really hope this theme will help you in your development struggles!
 
-<p data-align="center">Feel free to make pull requests, post issues! I'm open to suggestions!</p>
-
-<p id="diff-lng">P.S.: This theme probably won't go well with other languages. If you want support for some language, just post me an issue on GitHub</p>
+Feel free to make pull requests, post issues! I'm open to suggestions!
 
 ## Currently supported languages
 
@@ -22,9 +20,12 @@ and, finally, React-based theme, for all my fellow comrades, who use React!</p>
 - JSX
 - ...and more to go!
 
+> `P.S.: This theme probably won't go well with other languages. If you want support for some language, just post me an issue on GitHub`
 ## Extra links
 
 ---
 - [GitHub](https://github.com/ImpendingDoom28/react-beauty-2.0 "Theme repository")
 - [Issues Page](https://github.com/ImpendingDoom28/react-beauty-2.0/issues "GitHub Issues")
 - [VSCode Marketplace](https://marketplace.visualstudio.com/items?itemName=ImpendingDoom28.react-beauty-2&ssr=false#overview "Theme on Marketplace")
+
+[1]: https://reactjs.org/, "React Official documentation"
