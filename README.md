@@ -1,4 +1,4 @@
-<p><h1>React-Beauty Remake!!!</h1></p>
+<h1 align="center">React-Beauty Remake!!!</h1>
 
 ![Visual Studio Marketplace Downloads](https://img.shields.io/visual-studio-marketplace/d/ImpendingDoom28.react-beauty-2?color=0d6a7a&label=Downloads)
 ![Visual Studio Marketplace Rating](https://img.shields.io/visual-studio-marketplace/r/ImpendingDoom28.react-beauty-2?style=flat-square&label=Rating)
@@ -15,9 +15,16 @@ and, finally, React-based theme, for all my fellow comrades, who use React!</p>
 
 <p id="diff-lng">P.S.: This theme probably won't go well with other languages. If you want support for some language, just post me an issue on GitHub</p>
 
-## ***Enjoy!***
+## Currently supported languages
+
 ---
-#### *Extra links:*
+- Javascript
+- JSX
+- ...and more to go!
+
+## Extra links
+
+---
 - [GitHub](https://github.com/ImpendingDoom28/react-beauty-2.0 "Theme repository")
 - [Issues Page](https://github.com/ImpendingDoom28/react-beauty-2.0/issues "GitHub Issues")
 - [VSCode Marketplace](https://marketplace.visualstudio.com/items?itemName=ImpendingDoom28.react-beauty-2&ssr=false#overview "Theme on Marketplace")
