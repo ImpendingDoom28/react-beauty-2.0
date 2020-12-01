@@ -18,6 +18,7 @@ const Component1 = (
 		<div
 			className={css.div}
 			style={newVar}
+			data-testing={"something"}
 		>
 			<Component2
 				newVar={newVar}
