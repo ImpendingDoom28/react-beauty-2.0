@@ -4,6 +4,8 @@
 ![Visual Studio Marketplace Rating](https://img.shields.io/visual-studio-marketplace/r/ImpendingDoom28.react-beauty-2?style=flat-square&label=Rating)
 ![Visual Studio Marketplace Version](https://img.shields.io/visual-studio-marketplace/v/ImpendingDoom28.react-beauty-2?color=673dfd&label=Version)
 
+<h2 align="center">02.12.2020 - 100 installs on marketplace!!! Thank you all guys for the support!</h2>
+
 The beautiful ***Remake*** of [React-Beauty Theme](https://marketplace.visualstudio.com/items?itemName=ImpendingDoom.react-beauty-theme "React-Beauty \"The First\" on Marketplace")
 
 I thought, that it would be a great idea to make a nice, well-shaped, open-sourced 
@@ -20,7 +22,7 @@ Feel free to make pull requests, post issues! I'm open to suggestions!
 - JSX
 - ...and more to go!
 
-> `P.S.: This theme probably won't go well with other languages. If you want support for some language, just post me an issue on GitHub`
+> `P.S.: This theme probably won't go well with other languages. If you want syntax support for some language, just post me an issue on GitHub`
 ## Extra links
 
 ---
@@ -29,3 +31,9 @@ Feel free to make pull requests, post issues! I'm open to suggestions!
 - [VSCode Marketplace](https://marketplace.visualstudio.com/items?itemName=ImpendingDoom28.react-beauty-2&ssr=false#overview "Theme on Marketplace")
 
 [1]: https://reactjs.org/, "React Official documentation"
+
+## History
+
+---
+- 02.12.2020 - **100** installs on marketplace!!! So far, so good!
+- 31.10.2020 - First release!
