@@ -10,7 +10,8 @@ const Component1 = ({
 }) => {
 	const newVar = {}
 
-	const link = `http://localhost:8000`
+	const port = 3000;
+	const templateString = `http://localhost:${port}`;
 
 	return (
 		<div
