@@ -4,7 +4,8 @@
 ![Visual Studio Marketplace Rating](https://img.shields.io/visual-studio-marketplace/r/ImpendingDoom28.react-beauty-2?style=flat-square&label=Rating)
 ![Visual Studio Marketplace Version](https://img.shields.io/visual-studio-marketplace/v/ImpendingDoom28.react-beauty-2?color=673dfd&label=Version)
 
-<h2 align="center">02.12.2020 - 100 installs on marketplace!!! Thank you all guys for the support!</h2>
+<h2 align="center">02.12.2020 - 100 installs on marketplace!!!</h2>
+<h2 align="center">Thank you all guys for the support!</h2>
 
 The beautiful ***Remake*** of [React-Beauty Theme](https://marketplace.visualstudio.com/items?itemName=ImpendingDoom.react-beauty-theme "React-Beauty \"The First\" on Marketplace")
 
@@ -17,7 +18,6 @@ Feel free to make pull requests, post issues! I'm open to suggestions!
 
 ## Currently supported languages
 
----
 - Javascript
 - JSX
 - ...and more to go!
@@ -25,7 +25,6 @@ Feel free to make pull requests, post issues! I'm open to suggestions!
 > `P.S.: This theme probably won't go well with other languages. If you want syntax support for some language, just post me an issue on GitHub`
 ## Extra links
 
----
 - [GitHub](https://github.com/ImpendingDoom28/react-beauty-2.0 "Theme repository")
 - [Issues Page](https://github.com/ImpendingDoom28/react-beauty-2.0/issues "GitHub Issues")
 - [VSCode Marketplace](https://marketplace.visualstudio.com/items?itemName=ImpendingDoom28.react-beauty-2&ssr=false#overview "Theme on Marketplace")
@@ -34,6 +33,5 @@ Feel free to make pull requests, post issues! I'm open to suggestions!
 
 ## History
 
----
 - 02.12.2020 - **100** installs on marketplace!!! So far, so good!
 - 31.10.2020 - First release!
