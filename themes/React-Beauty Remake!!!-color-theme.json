@@ -59,20 +59,40 @@
 		"editor.background": "#232831b2",
 		"editor.foreground": "#eeffff",
 		"editor.selectionBackground": "#62c0ff59",
+
+		//// Group
 		"editorGroup.border": "#62c0ff59",
+
+		//// Suggest Widget
 		"editorSuggestWidget.border": "#2dcbfb9d",
 		"editorSuggestWidget.foreground": "#cdcfd3",
 		"editorSuggestWidget.highlightForeground": "#2dcbfb9d",
 		"editorSuggestWidget.selectedBackground": "#62c0ff59",
+
+		//// Gutter
 		"editorGutter.modifiedBackground": "#aaa812c2",
 		"editorGutter.deletedBackground": "#aa1212c2",
 		"editorGutter.addedBackground": "#36aa12c2",
+
+		//// Line
 		"editorLineNumber.foreground": "#808080",
-		"editorLink.activeForeground": "#2dcbfb9d",
-		"editorUnnecessaryCode.opacity": "#7e74748a",
 		"editorHoverWidget.background": "#2e2e2e",
+
+		//// Group Header
 		"editorGroupHeader.tabsBackground": "#1b1e24",
 		"editorGroupHeader.tabsBorder":"#23272e",
+
+		//// Find Match
+		"editor.findMatchBackground":"#6c707a00",
+		"editor.findMatchBorder": "#fd781f9a",
+		"editor.findMatchHighlightBackground": "#6c707a3b",
+		"editor.findMatchHighlightBorder": "#6c707a5d",
+		"editor.findRangeHighlightBackground": "#ff0000",
+
+		//// ETC
+		"editor.foldBackground": "#0d6a7a9a",
+		"editorLink.activeForeground": "#2dcbfb9d",
+		"editorUnnecessaryCode.opacity": "#7e74748a",
 
 		// INTEGRATED TERMINAL
 		"terminal.background": "#23272e",
