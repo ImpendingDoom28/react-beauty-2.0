@@ -3,31 +3,31 @@
 	"type": "dark",
 	"colors": {
 		// ACTIVITY BAR (column with buttons explorer, search, etc)
-		//// Color of column
+		// // Color of column
 		"activityBar.border": "#1b1e24",
 
-		//// Color of whole activity column
+		// // Color of whole activity column
 		"activityBar.background": "#1b1e24",
 
-		//// Color of selected element
+		// // Color of selected element
 		"activityBar.activeBackground": "#23272e",
 
-		//// Border color of selected element
+		// // Border color of selected element
 		"activityBar.activeBorder": "#0d6a7a9a",
 
-		//// Text color of selected item
+		// // Text color of selected item
 		"activityBar.foreground": "#ffffffb2",
 
-		//// Color of NOT selected element
+		// // Color of NOT selected element
 		"activityBar.inactiveForeground": "#6c707abe",
 
-		//// Color of line then dropping item (there to put activity bar item)
+		// // Color of line then dropping item (there to put activity bar item)
 		"activityBar.dropBorder": "#0d6a7a9a",
 
-		//// Text color of notification buttons 
+		// // Text color of notification buttons 
 		"activityBarBadge.foreground": "#ffffffb2",
 
-		//// Color of notification buttons (Ex.: source control has 2 files for stage, so the 2 in circle is displayed in bar)
+		// // Color of notification buttons (Ex.: source control has 2 files for stage, so the 2 in circle is displayed in bar)
 		"activityBarBadge.background": "#0d6a7a",
 
 		// ITEMS ON SCREEN
@@ -38,7 +38,7 @@
 		// ICONS
 		"icon.foreground":"#c0c1c5",
 
-		//// Selected items
+		// // Selected items
 		// "contrastActiveBorder": "#0d6a7a9a",
 
 		// BUTTONS
@@ -46,7 +46,7 @@
 		"button.background": "#0d6a7a9a",
 		"button.hoverBackground": "#1b1e24",
 		"button.secondaryBackground": "#ffffff",
-		//// Buttons in extensions
+		// // Buttons in extensions
 		"extensionBadge.remoteBackground": "#ff0000",
 		"extensionBadge.remoteForeground": "#ffffffb2",
 		"extensionButton.prominentBackground": "#36aa12c2",
@@ -60,36 +60,38 @@
 		"editor.foreground": "#eeffff",
 		"editor.selectionBackground": "#62c0ff59",
 
-		//// Group
+		// // Group
 		"editorGroup.border": "#62c0ff59",
 
-		//// Suggest Widget
+		// // Suggest Widget
 		"editorSuggestWidget.border": "#2dcbfb9d",
 		"editorSuggestWidget.foreground": "#cdcfd3",
 		"editorSuggestWidget.highlightForeground": "#2dcbfb9d",
 		"editorSuggestWidget.selectedBackground": "#62c0ff59",
 
-		//// Gutter
+		// // Gutter
 		"editorGutter.modifiedBackground": "#aaa812c2",
 		"editorGutter.deletedBackground": "#aa1212c2",
 		"editorGutter.addedBackground": "#36aa12c2",
 
-		//// Line
+		// // Line
 		"editorLineNumber.foreground": "#808080",
 		"editorHoverWidget.background": "#2e2e2e",
 
-		//// Group Header
+		// // Group Header
 		"editorGroupHeader.tabsBackground": "#1b1e24",
 		"editorGroupHeader.tabsBorder":"#23272e",
 
-		//// Find Match
-		"editor.findMatchBackground":"#6c707a00",
+		// // Find Match
+		"editor.findMatchBackground":"#00000000",
 		"editor.findMatchBorder": "#fd781f9a",
-		"editor.findMatchHighlightBackground": "#6c707a3b",
-		"editor.findMatchHighlightBorder": "#6c707a5d",
-		"editor.findRangeHighlightBackground": "#ff0000",
+		"editor.findMatchHighlightBackground": "#858a975e",
+		"editor.findMatchHighlightBorder": "#a8a8a85d",
 
-		//// ETC
+		// // // Find a word in editor in selected range if no results
+		"editor.findRangeHighlightBackground":"#6c707a3b",
+
+		// // ETC
 		"editor.foldBackground": "#0d6a7a9a",
 		"editorLink.activeForeground": "#2dcbfb9d",
 		"editorUnnecessaryCode.opacity": "#7e74748a",
@@ -116,11 +118,11 @@
 		// TITLE BAR
 		"titleBar.activeBackground": "#1b1e24",
 
-		//// Active text color
+		// // Active text color
 		"titleBar.activeForeground": "#ffffffb2",
 		"titleBar.inactiveBackground": "#1b1e24",
 
-		//// Not active text color
+		// // Not active text color
 		"titleBar.inactiveForeground": "#ffffff62",
 
 		// STATUS BAR
