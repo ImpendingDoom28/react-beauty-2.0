@@ -27,6 +27,12 @@ type SomeComponentProps = {
 	prop2: number
 }
 
+type TypeUnion = SomeComponentProps & CustomInterface
+
+const NaN1 = NaN;
+const undefined1 = undefined;
+const null1 = null;
+
 // Component
 
 const SomeComponent = (
@@ -44,11 +50,15 @@ const SomeComponent = (
 		base: b,
 		truish: a ? a : null,
 	}
+	let objectsBase = object.base;
 
-	return <React.Fragment>
-		{ "extra words here"}
-	{ i }
-	{ notI }
+	return <React.Fragment key={a}>
+		<div className="mama">
+			<a>{"some stupid test"}</a>
+		</div>
+		{"extra words here"}
+		{i}
+		{notI}
 	</React.Fragment>
 }
 

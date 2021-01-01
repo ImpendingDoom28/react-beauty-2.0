@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 
 import * as namespace from 'lodash';
 
-// import { function } from 'react-redux;
+// import { function } from 'react-redux';
 
 import css from './test.js';
 
@@ -11,7 +11,14 @@ const Component1 = (
 		prop1,
 		prop2
 	}) => {
-	const newVar = {}
+
+	const newVar = {
+		x: "some string",
+		y: 1,
+		z: true,
+		z1: false,
+		useless: prop1
+	}
 
 	const [state, setState] = useState(false);
 	return (
