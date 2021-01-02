@@ -7,9 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 > This need's a huge change, i need to improve my skills at writing changelogs
 
-## [Unreleased]
+## [0.10.0] - 02.01.2021
 
-- Initial release
+**Happy new year to all!**
+
 
 ## [0.9.0] - 02.12.2020
 

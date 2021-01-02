@@ -20,6 +20,7 @@ Feel free to make pull requests, post issues! I'm open to suggestions!
 
 - Javascript
 - JSX
+- Typescript! (.ts and .tsx files)
 - ...and more to go!
 
 > `P.S.: This theme probably won't go well with other languages. If you want syntax support for some language, just post me an issue on GitHub`
