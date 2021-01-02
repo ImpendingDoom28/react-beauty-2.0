@@ -11,6 +11,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 **Happy new year to all!**
 
+This special update for New Year added a long awaited feature - Typescript support!
+Thank you for your support, it means a lot to me, 240 install, you're absolute beasts!!
 
 ## [0.9.0] - 02.12.2020
 
@@ -24,4 +26,5 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 * 6c2ad17 Updated README for 100 installs <3
 ## [0.8.0] - 18.11.2020
 
+[0.10.0]: https://github.com/ImpendingDoom28/react-beauty-2.0/releases/tab/v0.10.0
 [0.9.0]: https://github.com/ImpendingDoom28/react-beauty-2.0/releases/tag/v0.9.0
