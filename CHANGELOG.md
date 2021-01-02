@@ -12,7 +12,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 **Happy new year to all!**
 
 This special update for New Year added a long awaited feature - Typescript support!
-Thank you for your support, it means a lot to me, 240 install, you're absolute beasts!!
+Thank you for your support, it means a lot to me, 240 installs, you're absolute beasts!!
+
+cc96a4b Changelog is ready to go - will be updated soon
+0bb916f Added testing file for typescript - you know what's coming)
+a0f452f You know what's coming boys - Typescript support!
+6f2b0a4 Finished typescript support! Hooray!
+5eb42eb Updated README
+c0350b6 Changelog never gets old
 
 ## [0.9.0] - 02.12.2020
 
