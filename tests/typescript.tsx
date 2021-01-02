@@ -27,6 +27,20 @@ type SomeComponentProps = {
 	prop2: number
 }
 
+class CoolClass {
+	private number = 1;
+	protected String = "const"
+	public Dump = true
+
+	constructor() {
+		this.number = 2;
+	}
+
+	method() {
+
+	}
+}
+
 type TypeUnion = SomeComponentProps & CustomInterface
 
 const NaN1 = NaN;
@@ -51,6 +65,9 @@ const SomeComponent = (
 		truish: a ? a : null,
 	}
 	let objectsBase = object.base;
+
+	const [state, setState] = useState(false);
+	state.prop1
 
 	return <React.Fragment key={a}>
 		<div className="mama">

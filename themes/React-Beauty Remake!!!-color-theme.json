@@ -230,32 +230,83 @@
 		// BUTTONS
 	},
 	"tokenColors": [
+		// SURELY ITALIC
+		{
+			"scope": [
+				"source.tsx meta.export.default.tsx variable.other.readwrite.tsx",
+				"source.ts meta.export.default.ts variable.other.readwrite.ts",
+				"meta.type.annotation.tsx support.type.primitive.tsx",
+				"meta.type.annotation.ts support.type.primitive.ts"
+			],
+			"settings": {
+				"fontStyle": "italic"
+			}
+		},
 		{
 			"scope": [
 				"meta.object-literal.key.js",
+				"variable.object.property.ts",
+				"variable.object.property.tsx",
+				"meta.object-literal.key.ts",
+				"meta.object-literal.key.tsx",
 				"source.js variable.other.property.js",
 				"constant.other.object.key.js string.unquoted.js",
-				"source.js variable.other.object.property.js"
+				"source.js variable.other.object.property.js",
+				"meta.var.expr.tsx variable.other.property.tsx",
 			],
 			"settings": {
-				"foreground": "#21a4ccc5"
+				"foreground": "#21a4ccd0"
 			}
 		},
+		// CONSTANTS
 		{
 			"scope": [
 				"constant.language.nan.js",
 				"support.class.builtin.js",
 				"constant.language.null.js",
 				"constant.language.undefined.js",
+				"constant.language.nan.tsx",
+				"support.class.builtin.tsx",
+				"support.constant.json.tsx",
+				"support.constant.json.ts",
+				"constant.language.null.tsx",
+				"constant.language.undefined.tsx",
+				"constant.language.nan.ts",
+				"support.class.builtin.ts",
+				"constant.language.null.ts",
+				"constant.language.undefined.ts",
+				"meta.type.annotation.ts entity.name.type.module.ts",
+				"meta.namespace.declaration.ts entity.name.type.module.ts",
+				"meta.type.annotation.tsx entity.name.type.module.tsx",
+				"meta.class.tsx entity.name.type.module.tsx"
 			],
 			"settings": {
 				"foreground": "#ff6600",
 				"fontStyle": "bold italic"
 			}
 		},
+		// TYPES IN TS
 		{
 			"scope": [
-				"constant.language.boolean.true.js"
+				"entity.name.type.alias.ts",
+				"entity.name.type.interface.ts",
+				"entity.other.inherited-class.ts",
+				"entity.name.type.ts",
+				"entity.name.type.alias.tsx",
+				"entity.name.type.interface.tsx",
+				"entity.name.type.tsx",
+				"entity.other.inherited-class.tsx",
+			],
+			"settings": {
+				"foreground": "#1ffd74a8",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"scope": [
+				"constant.language.boolean.true.js",
+				"constant.language.boolean.true.ts",
+				"constant.language.boolean.true.tsx",
 			],
 			"settings": {
 				"foreground": "#47e1fcd2"
@@ -264,15 +315,17 @@
 		{
 			"scope": [
 				"constant.language.boolean.false.js",
+				"constant.language.boolean.false.ts",
+				"constant.language.boolean.false.tsx"
 			],
 			"settings": {
-				"foreground": "#FF0000"
+				"foreground": "#ff0000cc"
 			}
 		},
 		{
 			"scope": [
 				"meta.function.js variable.other.readwrite.js",
-				"meta.arrow.js variable.other.readwrite.js"
+				"meta.arrow.js variable.other.readwrite.js",
 			],
 			"settings": {
 				"foreground": "#f78c6cec",
@@ -280,9 +333,12 @@
 		},
 		{
 			"scope": [
+				"entity.name.type.module.ts",
+				"cast.expr.ts entity.name.type.ts",
 				"support.class.component.js",
 				"support.class.component.open.jsx",
-				"support.class.component.close.jsx"
+				"support.class.component.close.jsx",
+				"support.class.component.tsx",
 			],
 			"settings": {
 				"foreground": "#673dfde3",
@@ -304,7 +360,15 @@
 				"variable",
 				"string constant.other.placeholder",
 				"meta.function.js meta.var-single-variable.expr.js variable.other.readwrite.js",
-				"variable.parameter.js"
+				"variable.parameter.js",
+				"meta.parameter.object-binding-pattern.ts variable.parameter.ts",
+				"meta.parameter.object-binding-pattern.tsx variable.parameter.tsx",
+				"variable.other.constant.ts entity.name.function.ts",
+				"variable.other.constant.tsx entity.name.function.tsx",
+				"meta.class.tsx meta.field.declaration.tsx meta.definition.property.tsx variable.object.property.tsx",
+				"meta.class.ts meta.field.declaration.ts meta.definition.property.ts variable.object.property.ts",
+				"meta.parameters.ts variable.parameter.ts",
+				"meta.parameters.tsx variable.parameter.tsx"
 			],
 			"settings": {
 				"foreground": "#e7e3e3ea"
@@ -324,7 +388,7 @@
 		{
 			"scope": [
 				"invalid",
-				"invalid.illegal"
+				"invalid.illegal",
 			],
 			"settings": {
 				"foreground": "#FF5370"
@@ -335,7 +399,7 @@
 				"keyword",
 				"storage.type",
 				"storage.modifier",
-				"variable.scss"
+				"variable.scss",
 			],
 			"settings": {
 				"foreground": "#B38CCE"
@@ -348,7 +412,9 @@
 				"punctuation",
 				"meta.tag",
 				"punctuation.definition.tag",
+				"punctuation.separator.key-value.js",
 				"punctuation.separator.inheritance.php",
+				"keyword.operator.type.annotation.ts",
 				"punctuation.definition.tag.html",
 				"punctuation.definition.tag.begin.html",
 				"punctuation.definition.tag.end.html",
@@ -376,7 +442,8 @@
 				"meta.function-call",
 				"variable.function",
 				"support.function",
-				"keyword.other.special-method"
+				"keyword.other.special-method",
+				"meta.type.paren.cover.ts variable.parameter.ts"
 			],
 			"settings": {
 				"foreground": "#82AAFF"
@@ -423,7 +490,8 @@
 				"markup.heading",
 				"markup.inserted.git_gutter",
 				"meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js",
-				"meta.tag.attributes.js string.quoted.double.js"
+				"meta.tag.attributes.js string.quoted.double.js",
+				"meta.class.ts meta.method.declaration.ts meta.block.ts new.expr.ts entity.name.type.ts"
 			],
 			"settings": {
 				"foreground": "#ffcb6b"
@@ -431,7 +499,7 @@
 		},
 		{
 			"scope": [
-				"punctuation.definition.entity.css"
+				"punctuation.definition.entity.css",
 			],
 			"settings": {
 				"foreground": "#FAA23DE8"
@@ -548,7 +616,7 @@
 		},
 		{
 			"scope": [
-				"markup.inserted"
+				"markup.inserted",
 			],
 			"settings": {
 				"foreground": "#C3E88D"
@@ -814,7 +882,7 @@
 		},
 		{
 			"scope": [
-				"markup.raw.block.fenced.markdown"
+				"markup.raw.block.fenced.markdown",
 			],
 			"settings": {
 				"foreground": "#00000050"
@@ -866,6 +934,7 @@
 		{
 			"scope": [
 				"variable.other.constant.js",
+				"variable.other.constant.ts",
 				"meta.definition.variable.js"
 			],
 			"settings": {
