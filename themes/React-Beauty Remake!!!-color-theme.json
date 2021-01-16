@@ -236,7 +236,7 @@
 				"source.tsx meta.export.default.tsx variable.other.readwrite.tsx",
 				"source.ts meta.export.default.ts variable.other.readwrite.ts",
 				"meta.type.annotation.tsx support.type.primitive.tsx",
-				"meta.type.annotation.ts support.type.primitive.ts"
+				"meta.type.annotation.ts support.type.primitive.ts",
 			],
 			"settings": {
 				"fontStyle": "italic"
@@ -249,10 +249,10 @@
 				"variable.object.property.tsx",
 				"meta.object-literal.key.ts",
 				"meta.object-literal.key.tsx",
-				"source.js variable.other.property.js",
 				"constant.other.object.key.js string.unquoted.js",
-				"source.js variable.other.object.property.js",
+				"source.js variable.other.property.js",
 				"meta.var.expr.tsx variable.other.property.tsx",
+				"meta.class.ts meta.block.ts variable.other.property.ts"
 			],
 			"settings": {
 				"foreground": "#21a4ccd0"
@@ -278,7 +278,7 @@
 				"meta.type.annotation.ts entity.name.type.module.ts",
 				"meta.namespace.declaration.ts entity.name.type.module.ts",
 				"meta.type.annotation.tsx entity.name.type.module.tsx",
-				"meta.class.tsx entity.name.type.module.tsx"
+				"meta.class.tsx entity.name.type.module.tsx",
 			],
 			"settings": {
 				"foreground": "#ff6600",
@@ -296,6 +296,13 @@
 				"entity.name.type.interface.tsx",
 				"entity.name.type.tsx",
 				"entity.other.inherited-class.tsx",
+				"entity.name.class",
+				"entity.name.type.class",
+				"meta.class.body.js variable.language.this.js",
+				"meta.class.ts variable.language.this.ts",
+				"new.expr.ts entity.name.type.ts",
+				"support.class.promise.ts",
+				"cast.expr.ts entity.name.type.ts"
 			],
 			"settings": {
 				"foreground": "#1ffd74a8",
@@ -319,7 +326,7 @@
 				"constant.language.boolean.false.tsx"
 			],
 			"settings": {
-				"foreground": "#ff0000cc"
+				"foreground": "#f03434",
 			}
 		},
 		{
@@ -334,7 +341,6 @@
 		{
 			"scope": [
 				"entity.name.type.module.ts",
-				"cast.expr.ts entity.name.type.ts",
 				"support.class.component.js",
 				"support.class.component.open.jsx",
 				"support.class.component.close.jsx",
@@ -368,7 +374,13 @@
 				"meta.class.tsx meta.field.declaration.tsx meta.definition.property.tsx variable.object.property.tsx",
 				"meta.class.ts meta.field.declaration.ts meta.definition.property.ts variable.object.property.ts",
 				"meta.parameters.ts variable.parameter.ts",
-				"meta.parameters.tsx variable.parameter.tsx"
+				"meta.parameters.tsx variable.parameter.tsx",
+				"support.type.object.module.js",
+				"meta.class.ts meta.block.ts variable.other.object.property.ts",
+				"meta.var.expr.ts variable.parameter.ts",
+				"meta.arrow.ts variable.parameter.ts",
+				"meta.function.js variable.other.readwrite.js",
+				"new.expr.tsx entity.name.type.module.tsx"
 			],
 			"settings": {
 				"foreground": "#e7e3e3ea"
@@ -491,7 +503,6 @@
 				"markup.inserted.git_gutter",
 				"meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js",
 				"meta.tag.attributes.js string.quoted.double.js",
-				"meta.class.ts meta.method.declaration.ts meta.block.ts new.expr.ts entity.name.type.ts"
 			],
 			"settings": {
 				"foreground": "#ffcb6b"
@@ -507,14 +518,13 @@
 		},
 		{
 			"scope": [
-				"entity.name",
 				"support.type",
 				"support.class",
 				"support.orther.namespace.use.php",
 				"meta.use.php",
 				"support.other.namespace.php",
 				"markup.changed.git_gutter",
-				"support.type.sys-types"
+				"support.type.sys-types",
 			],
 			"settings": {
 				"foreground": "#FFCB6B"
@@ -522,7 +532,7 @@
 		},
 		{
 			"scope": [
-				"support.type"
+				"support.type",
 			],
 			"settings": {
 				"foreground": "#B2CCD6"
@@ -545,7 +555,7 @@
 			"scope": [
 				"entity.name.module.js",
 				"variable.import.parameter.js",
-				"variable.other.class.js"
+				"variable.other.class.js",
 			],
 			"settings": {
 				"foreground": "#82AAFF"
@@ -582,7 +592,7 @@
 			"scope": [
 				"entity.other.attribute-name",
 				"variable.other.property.js",
-				"variable.other.object.property.js"
+				"variable.other.object.property.js",
 			],
 			"settings": {
 				"foreground": "#98CE00"
@@ -933,8 +943,6 @@
 		},
 		{
 			"scope": [
-				"variable.other.constant.js",
-				"variable.other.constant.ts",
 				"meta.definition.variable.js"
 			],
 			"settings": {
@@ -960,7 +968,9 @@
 			}
 		},
 		{
-			"scope": "token.debug-token",
+			"scope": [
+				"token.debug-token",
+			],
 			"settings": {
 				"foreground": "#B267E6"
 			}
