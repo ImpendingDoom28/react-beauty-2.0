@@ -7,6 +7,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 > This need's a huge change, i need to improve my skills at writing changelogs
 
+## [0.10.1] - 16.01.2021
+Made some small polishing changes to typescript and javascript
+Now they look better and similiar!
+
+> Still experimenting with TS, because only learning it...
+
+1b3a455 Patched colors for Typescript and Javascript
+6fb641f Updated some colors for editor
+
+
 ## [0.10.0] - 02.01.2021
 
 **Happy new year to all!**
@@ -33,5 +43,6 @@ c0350b6 Changelog never gets old
 * 6c2ad17 Updated README for 100 installs <3
 ## [0.8.0] - 18.11.2020
 
+[0.10.1]: https://github.com/ImpendingDoom28/react-beauty-2.0/releases/tag/v0.10.1
 [0.10.0]: https://github.com/ImpendingDoom28/react-beauty-2.0/releases/tag/v0.10.0
 [0.9.0]: https://github.com/ImpendingDoom28/react-beauty-2.0/releases/tag/v0.9.0
