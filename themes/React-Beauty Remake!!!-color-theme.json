@@ -59,7 +59,11 @@
 		"editor.background": "#232831b2",
 		"editor.foreground": "#eeffff",
 		"editor.selectionBackground": "#62c0ff59",
+		"editor.lineHighlightBorder": "#0d6a7a9a",
 
+		// // Zen mode panes on sides
+		"editorPane.background": "#232831b2",
+		
 		// // Group
 		"editorGroup.border": "#62c0ff59",
 		
