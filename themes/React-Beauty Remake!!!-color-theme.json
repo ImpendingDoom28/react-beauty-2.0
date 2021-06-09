@@ -5,42 +5,30 @@
 		// ACTIVITY BAR (column with buttons explorer, search, etc)
 		// // Color of column
 		"activityBar.border": "#1b1e24",
-
 		// // Color of whole activity column
 		"activityBar.background": "#1b1e24",
-
 		// // Color of selected element
 		"activityBar.activeBackground": "#23272e",
-
 		// // Border color of selected element
 		"activityBar.activeBorder": "#0d6a7a9a",
-
 		// // Text color of selected item
 		"activityBar.foreground": "#ffffffb2",
-
 		// // Color of NOT selected element
 		"activityBar.inactiveForeground": "#6c707abe",
-
 		// // Color of line then dropping item (there to put activity bar item)
 		"activityBar.dropBorder": "#0d6a7a9a",
-
 		// // Text color of notification buttons 
 		"activityBarBadge.foreground": "#ffffffb2",
-
 		// // Color of notification buttons (Ex.: source control has 2 files for stage, so the 2 in circle is displayed in bar)
 		"activityBarBadge.background": "#0d6a7a",
-
 		// ITEMS ON SCREEN
 		"contrastBorder": "#232831b2",
-		"focusBorder":"#0d6a7a9a",
+		"focusBorder": "#0d6a7a9a",
 		"foreground": "#ffffffb2",
-		
 		// ICONS
-		"icon.foreground":"#c0c1c5",
-
+		"icon.foreground": "#c0c1c5",
 		// // Selected items
 		// "contrastActiveBorder": "#0d6a7a9a",
-
 		// BUTTONS
 		"button.foreground": "#ffffffb2",
 		"button.background": "#0d6a7a9a",
@@ -51,84 +39,65 @@
 		"extensionBadge.remoteForeground": "#ffffffb2",
 		"extensionButton.prominentBackground": "#36aa12c2",
 		"extensionButton.prominentForeground": "#ffffffb2",
-
 		// DEBUG TOOL BAR
 		"debugToolBar.background": "#23272e",
-
 		// EDITOR
 		"editor.background": "#232831b2",
 		"editor.foreground": "#eeffff",
 		"editor.selectionBackground": "#62c0ff59",
 		"editor.lineHighlightBorder": "#0d6a7a9a",
-
 		// // Zen mode panes on sides
 		"editorPane.background": "#232831b2",
-		
 		// // Group
 		"editorGroup.border": "#62c0ff59",
-		
 		// // Suggest Widget
 		"editorSuggestWidget.border": "#2dcbfb9d",
 		"editorSuggestWidget.foreground": "#cdcfd3",
 		"editorSuggestWidget.highlightForeground": "#2dcbfb9d",
 		"editorSuggestWidget.selectedBackground": "#62c0ff59",
-
 		// // Gutter
 		"editorGutter.modifiedBackground": "#aaa812c2",
 		"editorGutter.deletedBackground": "#aa1212c2",
 		"editorGutter.addedBackground": "#36aa12c2",
-
 		// // Line
 		"editorLineNumber.foreground": "#808080",
 		"editorHoverWidget.background": "#2e2e2e",
-
 		// // Group Header
 		"editorGroupHeader.tabsBackground": "#1b1e24",
-		"editorGroupHeader.tabsBorder":"#23272e",
-
+		"editorGroupHeader.tabsBorder": "#23272e",
 		// // Find Match
-		"editor.findMatchBackground":"#00000000",
+		"editor.findMatchBackground": "#00000000",
 		"editor.findMatchBorder": "#fd781f9a",
 		"editor.findMatchHighlightBackground": "#858a975e",
 		"editor.findMatchHighlightBorder": "#a8a8a85d",
-
 		// // // Find a word in editor in selected range if no results
-		"editor.findRangeHighlightBackground":"#6c707a3b",
-
+		"editor.findRangeHighlightBackground": "#6c707a3b",
 		// // ETC
-		"editor.foldBackground": "#0d6a7a9a",
+		"editor.foldBackground": "#084550c0",
 		"editorLink.activeForeground": "#2dcbfb9d",
 		"editorUnnecessaryCode.opacity": "#7e74748a",
-
 		// INTEGRATED TERMINAL
 		"terminal.background": "#23272e",
 		"terminal.border": "#1b1e24",
-
 		// SIDEBAR
 		"sideBar.background": "#23272e",
 		"sideBar.border": "#1b1e24",
 		"sideBar.dropBackground": "#0d6a7a9a",
 		"sideBarTitle.foreground": "#ffffffb2",
 		"sideBar.foreground": "#ffffffb2",
-
 		// SIDEBAR SECTIONS
 		"sideBarSectionHeader.background": "#23272e",
 		"sideBarSectionHeader.border": "#0d6a7a9a",
 		"sideBarSectionHeader.foreground": "#ffffffb2",
-
 		// WIDGET
 		"widget.shadow": "#00000067",
-
 		// TITLE BAR
 		"titleBar.activeBackground": "#1b1e24",
-
 		// // Active text color
 		"titleBar.activeForeground": "#ffffffb2",
 		"titleBar.inactiveBackground": "#1b1e24",
-
 		// // Not active text color
 		"titleBar.inactiveForeground": "#ffffff62",
-
 		// STATUS BAR
 		"statusBar.background": "#1b1e24",
 		"statusBar.foreground": "#ffffffb2",
@@ -138,7 +107,6 @@
 		"statusBarItem.prominentBackground": "#ff0000",
 		"statusBarItem.activeBackground": "#084550c0",
 		"statusBarItem.hoverBackground": "#0d6a7a9a",
-
 		// MENUS
 		"menu.background": "#1b1e24",
 		"menu.foreground": "#ffffffb2",
@@ -146,12 +114,10 @@
 		"menu.selectionBackground": "#0d6a7a9a",
 		"menu.selectionForeground": "#eeffff",
 		"menu.selectionBorder": "#084550c0",
-		
 		// MENU BAR
 		"menubar.selectionBackground": "#0d6a7a9a",
 		"menubar.selectionForeground": "#eeffff",
 		"menubar.selectionBorder": "#084550c0",
-
 		// NOTIFICATIONS
 		"notificationCenter.border": "#1b1e24",
 		"notificationCenterHeader.background": "#23272e",
@@ -164,9 +130,8 @@
 		"notificationsWarningIcon.foreground": "#aaa812c2",
 		"notificationsInfoIcon.foreground": "#2dcbfb9d",
 		"notificationLink.foreground": "#2dcbfb9d",
-
 		// TABS
-		"tab.activeBackground":"#23272e",
+		"tab.activeBackground": "#23272e",
 		"tab.activeBorder": "#23272e",
 		"tab.activeBorderTop": "#1b1e24",
 		"tab.activeForeground": "#eeffff",
@@ -179,14 +144,12 @@
 		"tab.inactiveForeground": "#ffffff62",
 		"tab.inactiveModifiedBorder": "#673dfd77",
 		"tab.lastPinnedBorder": "#23272e",
-
 		// BREADCRUMBS
 		"breadcrumb.activeSelectionForeground": "#eeffff",
 		"breadcrumb.background": "#23272e",
 		"breadcrumb.focusForeground": "#cdcfd3",
 		"breadcrumb.foreground": "#ffffffb2",
 		"breadcrumbPicker.background": "#1b1e24",
-
 		// PANELS
 		"panel.background": "#23272e",
 		"panel.border": "#1b1e24",
@@ -196,7 +159,6 @@
 		"panelTitle.activeForeground": "#ffffffb2",
 		"panelTitle.inactiveForeground": "#6c707abe",
 		"panelInput.border": "#0d6a7a9a",
-
 		// INPUTS
 		"input.background": "#1b1e24",
 		"input.border": "#1b1e24",
@@ -206,12 +168,11 @@
 		"inputOption.activeBorder": "#0d6a7a9a",
 		"inputOption.activeForeground": "#ffffffb2",
 		"quickInput.background": "#1b1e24",
-
 		// LISTS
 		"list.activeSelectionBackground": "#0d6a7a9a",
 		"list.activeSelectionForeground": "#eeffff",
 		"list.dropBackground": "#1b1e24",
-		"list.errorForeground":"#aa1212",
+		"list.errorForeground": "#aa1212",
 		"list.focusBackground": "#0d6a7a9a",
 		"list.focusForeground": "#eeffff",
 		"list.filterMatchBackground": "#fd781faf",
@@ -219,18 +180,15 @@
 		"list.hoverBackground": "#0d6a7a9a",
 		"list.hoverForeground": "#eeffff",
 		"list.inactiveFocusBackground": "#084550c0",
-		"list.inactiveSelectionBackground":"#084550c0",
-		"list.inactiveSelectionForeground":"#6c707abe",
+		"list.inactiveSelectionBackground": "#084550c0",
+		"list.inactiveSelectionForeground": "#6c707abe",
 		"list.warningForeground": "#aaa812c2",
-		
 		// LISTS FILTERS
 		"listFilterWidget.background": "#fd781f86",
-		"listFilterWidget.noMatchesOutline":"#ff0000",
+		"listFilterWidget.noMatchesOutline": "#ff0000",
 		"listFilterWidget.outline": "#36aa12",
-
 		// IMAGE PREVIEW
 		"imagePreview.border": "#23272e",
-		
 		// BUTTONS
 	},
 	"tokenColors": [
@@ -251,6 +209,7 @@
 				"meta.object-literal.key.js",
 				"variable.object.property.ts",
 				"variable.object.property.tsx",
+				"variable.other.object.property.tsx",
 				"meta.object-literal.key.ts",
 				"meta.object-literal.key.tsx",
 				"constant.other.object.key.js string.unquoted.js",
@@ -345,13 +304,10 @@
 		{
 			"scope": [
 				"entity.name.type.module.ts",
-				"support.class.component.js",
-				"support.class.component.open.jsx",
-				"support.class.component.close.jsx",
-				"support.class.component.tsx",
+				"support.class.component",
 			],
 			"settings": {
-				"foreground": "#673dfde3",
+				"foreground": "#4b74fd",
 				"fontStyle": "italic"
 			}
 		},
@@ -373,12 +329,8 @@
 				"variable.parameter.js",
 				"meta.parameter.object-binding-pattern.ts variable.parameter.ts",
 				"meta.parameter.object-binding-pattern.tsx variable.parameter.tsx",
-				"variable.other.constant.ts entity.name.function.ts",
-				"variable.other.constant.tsx entity.name.function.tsx",
 				"meta.class.tsx meta.field.declaration.tsx meta.definition.property.tsx variable.object.property.tsx",
 				"meta.class.ts meta.field.declaration.ts meta.definition.property.ts variable.object.property.ts",
-				"meta.parameters.ts variable.parameter.ts",
-				"meta.parameters.tsx variable.parameter.tsx",
 				"support.type.object.module.js",
 				"meta.class.ts meta.block.ts variable.other.object.property.ts",
 				"meta.var.expr.ts variable.parameter.ts",
@@ -467,7 +419,11 @@
 		},
 		{
 			"scope": [
-				"meta.block variable.other"
+				"meta.block variable.other",
+				"meta.parameters.ts variable.parameter.ts",
+				"meta.parameters.tsx variable.parameter.tsx",
+				"meta.function.arrow entity.name.function",
+				"variable.other.constant entity.name.function",
 			],
 			"settings": {
 				"foreground": "#D7DEEA"
@@ -494,7 +450,7 @@
 				"keyword.other"
 			],
 			"settings": {
-				"foreground": "#F78C6C"
+				"foreground": "#e28a6f"
 			}
 		},
 		{
@@ -558,6 +514,7 @@
 		{
 			"scope": [
 				"entity.name.module.js",
+				"entity.name.function",
 				"variable.import.parameter.js",
 				"variable.other.class.js",
 			],
