@@ -4,8 +4,8 @@
 ![Visual Studio Marketplace Rating](https://img.shields.io/visual-studio-marketplace/r/ImpendingDoom28.react-beauty-2?style=flat-square&label=Rating)
 ![Visual Studio Marketplace Version](https://img.shields.io/visual-studio-marketplace/v/ImpendingDoom28.react-beauty-2?color=673dfd&label=Version)
 
-<h2 align="center">02.12.2020 - 100 installs on marketplace!!!</h2>
-<h2 align="center">Thank you all guys for the support!</h2>
+<h2 align="center">09.06.2021 - OVER 900 installs on marketplace!!!</h2>
+<h2 align="center">That's fantastic to see, thank you!!!</h2>
 
 The beautiful ***Remake*** of [React-Beauty Theme](https://marketplace.visualstudio.com/items?itemName=ImpendingDoom.react-beauty-theme "React-Beauty \"The First\" on Marketplace")
 
@@ -34,5 +34,6 @@ Feel free to make pull requests, post issues! I'm open to suggestions!
 
 ## History
 
+- 09.06.2021 - **OVER 900** installs on marketplace!!!
 - 02.12.2020 - **100** installs on marketplace!!! So far, so good!
 - 31.10.2020 - First release!
