@@ -15,6 +15,7 @@ Almost nothin' to see here, but i adjusted colors to make this theme more convin
 plus some bug fixes with not unified colors for the same things
 
 * 16f097d Updated colors, made it more readable in lighter environment + bug fixes 
+* ca0f4f9 Updated changelog for new version
 
 ## [0.10.1] - 16.01.2021
 Made some small polishing changes to typescript and javascript
