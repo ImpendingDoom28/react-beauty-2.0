@@ -11,11 +11,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 **Happy summer!**
 
-Almost nothin' to see here, but i adjusted colors to make this theme more convinient during daylight (especially for components in React)
-plus some bug fixes with not unified colors for the same things
+Almost nothin' to see here (except OVER 900 downloads, WTF, thank you so much!!!)
+
+But i adjusted colors to make this theme more convinient during daylight (especially for components in React) plus some bug fixes with not unified colors for the same things
 
 * 16f097d Updated colors, made it more readable in lighter environment + bug fixes 
 * ca0f4f9 Updated changelog for new version
+* a5ab62e Updated README.md accordingly
 
 ## [0.10.1] - 16.01.2021
 Made some small polishing changes to typescript and javascript
