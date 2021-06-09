@@ -7,6 +7,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 > This need's a huge change, i need to improve my skills at writing changelogs
 
+## [0.10.2] - 09.06.2021
+
+**Happy summer!**
+
+Almost nothin' to see here, but i adjusted colors to make this theme more convinient during daylight (especially for components in React)
+plus some bug fixes with not unified colors for the same things
+
+* 16f097d Updated colors, made it more readable in lighter environment + bug fixes 
+
 ## [0.10.1] - 16.01.2021
 Made some small polishing changes to typescript and javascript
 Now they look better and similiar!
@@ -43,6 +52,7 @@ c0350b6 Changelog never gets old
 * 6c2ad17 Updated README for 100 installs <3
 ## [0.8.0] - 18.11.2020
 
+[0.10.2]: https://github.com/ImpendingDoom28/react-beauty-2.0/releases/tag/v0.10.2
 [0.10.1]: https://github.com/ImpendingDoom28/react-beauty-2.0/releases/tag/v0.10.1
 [0.10.0]: https://github.com/ImpendingDoom28/react-beauty-2.0/releases/tag/v0.10.0
 [0.9.0]: https://github.com/ImpendingDoom28/react-beauty-2.0/releases/tag/v0.9.0
