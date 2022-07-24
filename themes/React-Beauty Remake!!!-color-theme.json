@@ -33,7 +33,9 @@
 		"button.foreground": "#ffffffb2",
 		"button.background": "#0d6a7a9a",
 		"button.hoverBackground": "#1b1e24",
-		"button.secondaryBackground": "#ffffff",
+		"button.secondaryBackground": "#62c0ff59",
+		"button.secondaryForeground": "#c0c1c5",
+		"button.secondaryHoverBackground": "#1b1e24a8",
 		// // Buttons in extensions
 		"extensionBadge.remoteBackground": "#ff0000",
 		"extensionBadge.remoteForeground": "#ffffffb2",
@@ -187,9 +189,6 @@
 		"listFilterWidget.background": "#fd781f86",
 		"listFilterWidget.noMatchesOutline": "#ff0000",
 		"listFilterWidget.outline": "#36aa12",
-		// IMAGE PREVIEW
-		"imagePreview.border": "#23272e",
-		// BUTTONS
 	},
 	"tokenColors": [
 		// SURELY ITALIC
@@ -206,16 +205,13 @@
 		},
 		{
 			"scope": [
-				"meta.object-literal.key.js",
-				"variable.object.property.ts",
-				"variable.object.property.tsx",
-				"variable.other.object.property.tsx",
-				"meta.object-literal.key.ts",
-				"meta.object-literal.key.tsx",
+				"meta.object-literal.key",
+				"variable.object.property",
+				"variable.other.object.property",
 				"constant.other.object.key.js string.unquoted.js",
 				"source.js variable.other.property.js",
 				"meta.var.expr.tsx variable.other.property.tsx",
-				"meta.class.ts meta.block.ts variable.other.property.ts"
+				"meta.class meta.block variable.other.property"
 			],
 			"settings": {
 				"foreground": "#21a4ccd0"
@@ -224,24 +220,13 @@
 		// CONSTANTS
 		{
 			"scope": [
-				"constant.language.nan.js",
-				"support.class.builtin.js",
-				"constant.language.null.js",
-				"constant.language.undefined.js",
-				"constant.language.nan.tsx",
-				"support.class.builtin.tsx",
-				"support.constant.json.tsx",
-				"support.constant.json.ts",
-				"constant.language.null.tsx",
-				"constant.language.undefined.tsx",
-				"constant.language.nan.ts",
-				"support.class.builtin.ts",
-				"constant.language.null.ts",
-				"constant.language.undefined.ts",
-				"meta.type.annotation.ts entity.name.type.module.ts",
-				"meta.namespace.declaration.ts entity.name.type.module.ts",
-				"meta.type.annotation.tsx entity.name.type.module.tsx",
-				"meta.class.tsx entity.name.type.module.tsx",
+				"constant.language.null",
+				"constant.language.undefined",
+				"constant.language.nan",
+				"support.class.builtin",
+				"support.constant.json",
+				"entity.name.type.module",
+				"source meta.var.expr meta.objectliteral meta.object.member entity.name.type.module"
 			],
 			"settings": {
 				"foreground": "#ff6600",
@@ -251,21 +236,14 @@
 		// TYPES IN TS
 		{
 			"scope": [
-				"entity.name.type.alias.ts",
-				"entity.name.type.interface.ts",
-				"entity.other.inherited-class.ts",
-				"entity.name.type.ts",
-				"entity.name.type.alias.tsx",
-				"entity.name.type.interface.tsx",
-				"entity.name.type.tsx",
-				"entity.other.inherited-class.tsx",
+				"entity.other.inherited-class",
+				"meta.class variable.language.this",
+				"support.class.promise",
+				"entity.name.type",
 				"entity.name.class",
 				"entity.name.type.class",
-				"meta.class.body.js variable.language.this.js",
-				"meta.class.ts variable.language.this.ts",
-				"new.expr.ts entity.name.type.ts",
-				"support.class.promise.ts",
-				"cast.expr.ts entity.name.type.ts"
+				"new.expr entity.name.type",
+				"cast.expr entity.name.type",
 			],
 			"settings": {
 				"foreground": "#1ffd74a8",
@@ -274,9 +252,7 @@
 		},
 		{
 			"scope": [
-				"constant.language.boolean.true.js",
-				"constant.language.boolean.true.ts",
-				"constant.language.boolean.true.tsx",
+				"constant.language.boolean.true",
 			],
 			"settings": {
 				"foreground": "#47e1fcd2"
@@ -284,9 +260,7 @@
 		},
 		{
 			"scope": [
-				"constant.language.boolean.false.js",
-				"constant.language.boolean.false.ts",
-				"constant.language.boolean.false.tsx"
+				"constant.language.boolean.false",
 			],
 			"settings": {
 				"foreground": "#f03434",
@@ -307,7 +281,7 @@
 				"support.class.component",
 			],
 			"settings": {
-				"foreground": "#4b74fd",
+				"foreground": "#4b7afd",
 				"fontStyle": "italic"
 			}
 		},
@@ -336,10 +310,15 @@
 				"meta.var.expr.ts variable.parameter.ts",
 				"meta.arrow.ts variable.parameter.ts",
 				"meta.function.js variable.other.readwrite.js",
-				"new.expr.tsx entity.name.type.module.tsx"
+				"new.expr.tsx entity.name.type.module.tsx",
+				"meta.block variable.other",
+				"meta.parameters.ts variable.parameter.ts",
+				"variable.parameter.tsx",
+				"meta.function.arrow entity.name.function",
+				"variable.other.constant entity.name.function",
 			],
 			"settings": {
-				"foreground": "#e7e3e3ea"
+				"foreground": "#D7DEEA"
 			}
 		},
 		{
@@ -364,7 +343,6 @@
 		},
 		{
 			"scope": [
-				"keyword",
 				"storage.type",
 				"storage.modifier",
 				"variable.scss",
@@ -398,7 +376,9 @@
 			"scope": [
 				"entity.name.tag",
 				"meta.tag.sgml",
-				"markup.deleted.git_gutter"
+				"markup.deleted.git_gutter",
+				"support.other.variable",
+				"string.other.link",
 			],
 			"settings": {
 				"foreground": "#F07178"
@@ -419,27 +399,6 @@
 		},
 		{
 			"scope": [
-				"meta.block variable.other",
-				"meta.parameters.ts variable.parameter.ts",
-				"meta.parameters.tsx variable.parameter.tsx",
-				"meta.function.arrow entity.name.function",
-				"variable.other.constant entity.name.function",
-			],
-			"settings": {
-				"foreground": "#D7DEEA"
-			}
-		},
-		{
-			"scope": [
-				"support.other.variable",
-				"string.other.link"
-			],
-			"settings": {
-				"foreground": "#F07178"
-			}
-		},
-		{
-			"scope": [
 				"constant.numeric",
 				"constant.language",
 				"support.constant",
@@ -455,10 +414,11 @@
 		},
 		{
 			"scope": [
+				"meta.tag meta.tag.without-attributes",
+				"source keyword.control.at-rule.use constant.character.css",
 				"string",
 				"constant.other.symbol",
 				"constant.other.key",
-				"entity.other.inherited-class",
 				"markup.heading",
 				"markup.inserted.git_gutter",
 				"meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js",
@@ -480,7 +440,7 @@
 			"scope": [
 				"support.type",
 				"support.class",
-				"support.orther.namespace.use.php",
+				"support.other.namespace.use.php",
 				"meta.use.php",
 				"support.other.namespace.php",
 				"markup.changed.git_gutter",
@@ -508,7 +468,7 @@
 				"source.postcss support.type.property-name"
 			],
 			"settings": {
-				"foreground": "#FFFFFF"
+				"foreground": "#D7DEEA"
 			}
 		},
 		{
@@ -551,6 +511,7 @@
 		},
 		{
 			"scope": [
+				"source meta.property-list.css.sass.prop support.type.property-name.css.sass.prop.name",
 				"entity.other.attribute-name",
 				"variable.other.property.js",
 				"variable.other.object.property.js",
@@ -845,7 +806,12 @@
 		},
 		{
 			"scope": [
-				"markup.raw.block"
+				"markup.raw.block",
+				"source variable.other.name",
+				"source variable.other.value",
+				"source meta.property-list variable",
+				"source keyword.control.at-rule.use",
+				"source keyword.operator"
 			],
 			"settings": {
 				"foreground": "#C792EA"

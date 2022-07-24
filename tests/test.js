@@ -36,7 +36,10 @@ const CONST_OBJECT = {
 	CONST_OBJ_KEY: "CONST_OBJ_VALUE"
 };
 
-function basicFunction(param1, param2) {
+function basicFunction(
+	param1,
+	param2
+) {
 	let a = "b";
 	let b = "a";
 

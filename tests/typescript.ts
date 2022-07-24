@@ -20,6 +20,20 @@ interface CustomInterfaceInheritance extends CustomInterface {
 	notCoolStuff: any
 }
 
+class CoolClass {
+	private number = 1;
+	protected String = "const"
+	public Dump = true
+
+	constructor() {
+		this.number = 2;
+	}
+
+	method() {
+
+	}
+}
+
 // Props type
 
 type SomeComponentProps = {
@@ -27,32 +41,6 @@ type SomeComponentProps = {
 	prop2: number
 }
 
-// Component
-
-const SomeComponent = (
-	{
-		prop1,
-		prop2
-	}: SomeComponentProps) => {
-
-	let b = false;
-	let a = true;
-	let i = parseInt(prop1) + prop2;
-	let notI = prop1 + prop2;
-	const object = {
-		x: i,
-		base: b,
-		truish: a ? a : null,
-	}
-
-	return <React.Fragment>
-		{ "extra words here"}
-	{ i }
-	{ notI }
-	</React.Fragment>
-}
-
-
-export default SomeComponent;
-
-export { default } 
+const nan = NaN;
+const nullish = null;
+const notDefined = undefined;
