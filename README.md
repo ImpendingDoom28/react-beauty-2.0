@@ -23,7 +23,7 @@ Feel free to make pull requests, post issues! I'm open to suggestions!
 	- <img src="https://developer.apple.com/favicon.ico" width=16 height=16 /> <a href="https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf">MacOS:</a> ⌘P
 
 2) Paste the following command and press Enter:
-	```bash
+	```shell
 	ext install react-beauty-2
 	```
 3) Click on *Install* button in Sidebar
