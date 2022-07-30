@@ -1,13 +1,14 @@
 {
   "name": "react-beauty-2",
-  "version": "0.11.0",
+  "version": "0.11.1",
   "displayName": "React-Beauty Remake!!!",
   "description": "The beautiful remake of the React-Beauty Theme from the creator!",
   "engines": {
     "vscode": "^1.50.0"
   },
   "categories": [
-    "Themes"
+    "Themes",
+    "Other"
   ],
   "repository": {
     "type": "git",
@@ -26,6 +27,7 @@
       }
     ]
   },
+  "icon": "logo.png",
   "publisher": "ImpendingDoom28",
   "author": "ImpendingDoom28",
   "license": "ISC",
